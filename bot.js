@@ -144,7 +144,7 @@ bot.command('shop', (ctx) => {
     if (!results || !results[0]) return;
     const { balance, throat_level, big_clients_unlocked, dildo_level } = results[0];
     const next_throat_cost = throat_level * 50;
-    const dildo_cost = 300 + dildo_level * 200; // цена увеличивается с уровнем
+    const dildo_cost = 300 + dildo_level * 200; 
 
     const buttons = [
       [
